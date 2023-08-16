@@ -1,0 +1,20 @@
+.brands img{
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+}
+.size img{
+    height: 470px;
+}
+.brandsize{
+    height: 139px;
+}
+@media(max-width:670px){
+    .brandsize{
+        height: 180px;
+    }    
+    .brands img{
+        height: 200px!important;
+        /* margin-top: 35px; */
+    }    
+}

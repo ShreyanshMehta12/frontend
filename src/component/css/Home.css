@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    background: #000000f0;;
+}
+.logo{
+    margin: -10px 0px -10px 40px;
+    width: 265px;
+}
+.list{
+    font-size: 18px;
+    grid-column-gap: 12px;
+    padding-right: 60px;
+}
+.list .rang:hover{
+    color: #0ccfcf;
+}
+.list .rang{
+    color: #0ccfcf;
+    font-weight: 500;
+}
+.navbar-toggler-icon{
+    background-color: #347e7e;
+}
+.login{
+    margin-top: 6px;
+    background-color: #0d7459;
+    color: #59dbdb !important;
+    padding: 2px 9px 2px 9px;
+    border-radius: 5px;
+}
+.banner1{
+    height: 450px;
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    color: #fbaa1a;
+}
+
+/*Icons*/
+.icons{
+    background-color: aliceblue;
+}
+.icons h3{
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    color: #0d7459;
+    margin-bottom: 15px;
+}
+.icons i{
+    color: #0d7459;
+}
+
+/*Brands*/
+.a{
+    padding-top: 30px;
+    text-transform: uppercase;
+    font-family: 'prague';
+    font-size: 42px;
+}
+
+.slide2{
+    width: 1000px;
+}
+.brands{
+    background-color: #508da124;
+}
+.brands-logo img{
+    margin: 30px 0 10px 3px;
+    width: 220px;
+    height: 120px;
+}
+
+/*phones*/
+.c{
+    background: #a1a8a90d;
+    border: 5px;
+    width: 350px; 
+    height: 400px;
+    text-align: justify;
+    padding: 10px;
+    float: left;
+    margin: 5px;
+    box-sizing: border-box;
+    margin-left: 80px;
+}
+.c img{
+    width: 205px;
+    height: 205px;
+    margin-left: 50px;
+    background-position: center;
+    background-size: cover;
+}
+.card-body p{
+   text-align: center;
+}
+.card-body span{
+    color: darkblue;
+}
+.card{
+    border: none;
+}
+.card-body span:hover{
+    color: indianred;
+}
+.btn-warning{
+    --bs-btn-color: #efeaea !important;
+    --bs-btn-bg: #17a9a9 !important;
+    --bs-btn-border-color: #17a9a9 !important;
+}
+
+/*footer*/
+.image{
+    vertical-align: middle;
+    border-style: none;
+    margin-top: 30px;
+    width: 60%;
+}
+.col1{
+    color: #fbaa1a;
+}
+.col{
+    color: #1ecbcb;
+}
+.bold{
+    font-weight: 400;
+    font-size: 20px;
+}
+.p1{
+    line-height: 40px;
+    letter-spacing: 1px;
+    font-size: 16px;
+    font-weight: 300;
+    color: white;
+}
+.p2{
+    letter-spacing: 1px;
+    font-size: 18px;
+    font-weight: 300;
+    color: white;
+    line-height: 25px;
+} 
+.abc a{
+    color: white;
+    text-decoration: none;
+}
+.abc h6{
+    font-weight: 400;
+    margin-top: 5px;
+}
+
+@media(max-width:670px){
+    .logo{
+        width: 170px;
+        margin-left: 8px;
+    }
+    .brands-logo img{
+        margin: 30px 0 10px 3px;
+        width: 330px !important;
+        height: 195px !important;
+    }
+    .a{
+        font-size: 38px !important;
+    }
+
+    .banner1{
+        width: 100%!important;
+        height: 155px!important;
+    }
+    .image{
+        width: 75%;
+    }
+    .padding{
+        padding: 0 20px 0 25px;
+    }
+}
