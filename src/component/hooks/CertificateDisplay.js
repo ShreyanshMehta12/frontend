@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react'
 function CertificateDisplay() {
   const[user,setItems]=useState([])
     useEffect(()=>{
-    fetch('https://ecommerceapi-d3ul.onrender.com/api/getalluser')
+    fetch('https://e-commerce-p488.onrender.com/api/getalluser')
     .then((response) => response.json())
     .then(json=>{setItems(json.getalluser)});
     // console.log('hello')
